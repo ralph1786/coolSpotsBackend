@@ -1,24 +1,21 @@
-# README
+# CoolSpots
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application where users can add places they have visited around the world. They can add reviews to these places.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+To get the application up and running you must clone this project, which is the backend of the application as well as the frontend that has the name of coolSpotFrontend. Once you have cloned both repositories go into your backend, and in the terminal run **rails s** to start the rails server. For the frontend open it on your favorite browser. 
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+```
+Have latest ruby on rails
+Use rails api flag
+Set database to Postgres
+```
 
-* Database creation
+### Gems Used
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. rack-cors  
+2. faker
+3. active_model_serializers

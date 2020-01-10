@@ -33,3 +33,5 @@ class Api::V1::SpotsController < ApplicationController
     params.permit(:name, :address, :review, :image, :location_id)
   end
 end
+
+
